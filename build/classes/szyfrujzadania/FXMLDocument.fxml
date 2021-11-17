@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="444.0" prefWidth="536.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="szyfrujzadania.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="53.0" layoutY="131.0" onAction="#decryptButton" text="Decrypt" />
+        <Label fx:id="label" alignment="CENTER" layoutX="173.0" layoutY="153.0" minHeight="16" minWidth="69" prefHeight="37.0" prefWidth="187.0" />
+      <Button layoutX="395.0" layoutY="131.0" mnemonicParsing="false" onAction="#encryptButton" text="Encrypt" />
+      <PasswordField fx:id="psF" layoutX="67.0" layoutY="48.0" prefHeight="31.0" prefWidth="398.0" />
+      <TextArea fx:id="tA" editable="false" layoutX="3.0" layoutY="190.0" prefHeight="200.0" prefWidth="528.0" />
+    </children>
+</AnchorPane>
